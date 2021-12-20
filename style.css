@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    padding: 10px 10%;
+}
+button {
+    margin: 8px 0;
+}
+#content {
+    width: 100% !important;
+    height: 200px;
+    font-family: "Microsoft Yahei", Helvetica, Arial, sans-serif;
+}
