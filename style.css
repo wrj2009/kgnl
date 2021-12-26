@@ -1,12 +1,47 @@
 body {
     text-align: center;
-    padding: 10px 10%;
+    padding: 10px 18%;
+}
+p {
+    user-select: none;
 }
 button {
     margin: 8px 0;
+    padding: 4px 14px;
+    background-color: #F8F8F8;
+    border: 1px solid #888;
+    border-radius: 3px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #DDD;
+}
+button:active {
+    background-color: #BBB;
 }
 #content {
     width: 100% !important;
     height: 200px;
     font-family: "Microsoft Yahei", Helvetica, Arial, sans-serif;
+}
+input {
+    height: 20px;
+    margin: 2px 5px;
+}
+input, textarea {
+    border: 1px solid #888;
+    background-color: #FFF;
+    border-radius: 3px;
+    font-size: 16px;
+    transition: background-color 0.3s ease,
+                border-color 0.3s ease;
+}
+input:hover, textarea:hover {
+    background-color: #DDD;
+}
+input:focus, textarea:focus {
+    outline: none;
+    border: 1px solid #444;
 }
